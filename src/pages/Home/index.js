@@ -1,13 +1,16 @@
 import react from "react";
 import * as S from './styled'
+import Top from '../../components/Top'
 
-
- const Home = () => {
+const Home = () => {
 
     return (
-        <S.Container>
-            <h1>Pagina principal</h1>
-        </S.Container>
+        < >
+            <header>
+                <Top/>
+            </header>
+            
+        </>
     )
 }
 
