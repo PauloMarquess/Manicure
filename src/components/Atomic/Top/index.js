@@ -6,7 +6,7 @@ function Top() {
     return (
         <S.Container>
             <div>
-                <S.Logo>Nani</S.Logo>
+                <S.Logo>Nani Moura</S.Logo>
             </div>
 
             <div>

@@ -1,6 +1,10 @@
 import react from "react";
 import * as S from './styled'
-import Top from '../../components/Top'
+import Top from '../../components/Atomic/Top'
+import Menu from "../../components/Atomic/Menu";
+import SlideShow from "../../components/Slide";
+import Service from "../../components/Serviços";
+
 
 const Home = () => {
 
@@ -8,7 +12,12 @@ const Home = () => {
         < >
             <header>
                 <Top/>
+                <Menu/>
+                
             </header>
+            
+                <SlideShow/>
+                <Service/>
             
         </>
     )

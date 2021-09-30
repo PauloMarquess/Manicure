@@ -1,0 +1,22 @@
+.images-wrap {
+    display: -webkit-inline-box;
+    
+    max-width: 1000px;
+    transform: translate(0px);
+    
+ 
+}
+
+.nav .default-nav{
+    position: fixed;
+    top: 400px;
+    z-index: 1;
+}
+
+button {
+    border: none;
+    background: none;
+    display: start;
+    
+}
+
