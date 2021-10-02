@@ -24,9 +24,8 @@ background: linear-gradient(
 font-family:auto ;
 :hover {
     cursor: pointer;
-    background: linear-gradient(
--90deg
-,#b2abfe 0%,#f9b8f8 100%);
+    background: #2e2c41;
+   
 }
 `
 export const Child =styled.span `

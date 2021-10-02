@@ -30,3 +30,7 @@ cursor: pointer;
 
 }
 `
+export const Img =styled.img`
+
+width: 20px;
+`

@@ -1,8 +1,9 @@
 import React from 'react';
 import * as S from './styled'
-import Whats from '../../../img/Icons/whatsapp.svg'
-import Face from '../../../img/Icons/facebook.svg'
-import Inst from '../../../img/Icons/instagram.svg'
+
+import Instagram from '../../../img/Icons/instagram.png'
+import Whatsapp from '../../../img/Icons/whatsapp.png'
+import Facebook from '../../../img/Icons/facebook.png'
 
 function Menu() {
     return (
@@ -18,11 +19,11 @@ function Menu() {
 
             <S.Redes>
 
-                <a href="#"> <img src={Whats} /></a>
+                <a href="#"> <S.Img src={Whatsapp} /></a>
 
-                <a href="#">  <img src={Face} /></a>
+                <a href="#">  <S.Img src={Facebook} /></a>
 
-                <a href="#"> <img src={Inst} /></a>
+                <a href="#"> <S.Img src={Instagram} /></a>
 
             </S.Redes>
 
