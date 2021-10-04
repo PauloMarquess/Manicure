@@ -10,9 +10,10 @@ import Img7 from "../../img/manicure7.jpeg";
 import Img8 from "../../img/manicure8.jpeg";
 import * as S from "./styled";
 
+
 const properties = {
   duration: 5000,
-  slidesToShow: 6,
+  slidesToShow: 4,
   slidesToScroll: 1,
   autoplay: true,
   indicators: false,

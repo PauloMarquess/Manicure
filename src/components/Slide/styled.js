@@ -10,12 +10,12 @@ export const MainContainer = styled.div`
 export const Container = styled.div`
   margin-top: 40px;
 
-  width: 80%;
+  width: 90%;
 `;
 
 export const Img = styled.img`
   width: 320px;
   height: 350px;
-  margin: 5px;
+ 
 `;
 export const Card = styled.div``;
