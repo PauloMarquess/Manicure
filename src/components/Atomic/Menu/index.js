@@ -1,5 +1,5 @@
 import React from 'react';
-import * as S from './styled'
+import {Container,Nav,Redes} from './styled'
 
 import Instagram from '../../../img/Icons/instagram.png'
 import Whatsapp from '../../../img/Icons/whatsapp.png'
@@ -7,27 +7,27 @@ import Facebook from '../../../img/Icons/facebook.png'
 
 function Menu() {
     return (
-        <S.Container>
+        <Container>
 
-            <S.List>
-                <li> <S.Link href="#">Inicio</S.Link></li>
-                <li> <S.Link href="#">Serviços</S.Link></li>
-                <li> <S.Link href="#">Reservas</S.Link></li>
-                <li> <S.Link href="#">Fotos</S.Link></li>
-                <li> <S.Link href="#">Contato</S.Link></li>
-            </S.List>
+            <Nav>
+                <li> <a href="#">Inicio</a></li>
+                <li> <a href="#">Serviços</a></li>
+                <li> <a href="#">Reservas</a></li>
+                <li> <a href="#">Fotos</a></li>
+                <li> <a href="#">Contato</a></li>
+            </Nav>
 
-            <S.Redes>
+            <Redes>
 
-                <a href="#"> <S.Img src={Whatsapp} /></a>
+                <a href="#"> <img src={Whatsapp} /></a>
 
-                <a href="#">  <S.Img src={Facebook} /></a>
+                <a href="#">  <img src={Facebook} /></a>
 
-                <a href="#"> <S.Img src={Instagram} /></a>
+                <a href="#"> <img src={Instagram} /></a>
 
-            </S.Redes>
+            </Redes>
 
-        </S.Container>
+        </Container>
     );
 }
 

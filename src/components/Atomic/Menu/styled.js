@@ -6,11 +6,26 @@ export const Container = styled.div`
  display: flex;
  padding-top:5px;
 `
-export const List =styled.div`
+export const Nav =styled.div`
 display: flex;
 justify-content: space-around;
 width: 70%;
 
+a {
+  color: #FFFF;
+
+:hover {
+color:#f9b8f8;
+cursor: pointer;
+
+}
+}
+
+@media (max-width:768px){
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
 
 `
 export const Redes =styled.div`
@@ -20,17 +35,14 @@ justify-content: space-around;
 align-items: center;
 padding-top:6px ;
 
-`
-export const Link =styled.a`
-color: #FFFF;
+img {
+  width: 20px;
+}
 
-:hover {
-color:#f9b8f8;
-cursor: pointer;
+@media (max-width:768px) {
 
+  display: none;
 }
 `
-export const Img =styled.img`
 
-width: 20px;
-`
+

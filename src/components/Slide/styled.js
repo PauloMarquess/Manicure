@@ -11,6 +11,8 @@ export const Container = styled.div`
   margin-top: 40px;
 
   width: 90%;
+
+  
 `;
 
 export const Img = styled.img`
@@ -18,4 +20,4 @@ export const Img = styled.img`
   height: 350px;
  
 `;
-export const Card = styled.div``;
+

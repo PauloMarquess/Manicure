@@ -1,22 +1,22 @@
 import React from 'react';
-import * as S from './styled'
+import {Container,Btn,Spam} from './styled'
 
 
 function Top() {
     return (
-        <S.Container>
+        <Container>
             <div>
-                <S.Logo>Nany Moura</S.Logo>
+                <h1>Nany Moura</h1>
             </div>
 
             <div>
-                <h4>Telefone:(87) 99623-3325 | Aberto : 8:<S.Child>00</S.Child>-18:<S.Child>00</S.Child> Segunda à Sexta</h4>
+                <h4>Telefone:(87) 99623-3325 | Aberto : 8:<Spam>00</Spam>-18:<Spam>00</Spam> Segunda à Sexta</h4>
             </div>
 
             <div>
-                <S.Btn> Agendar Horário</S.Btn>
+                <Btn> Agendar Horário</Btn>
             </div>
-        </S.Container>
+        </Container>
     );
 }
 

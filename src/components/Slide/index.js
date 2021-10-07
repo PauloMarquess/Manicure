@@ -8,7 +8,7 @@ import Img5 from "../../img/manicure5.jpeg";
 import Img6 from "../../img/manicure6.jpeg";
 import Img7 from "../../img/manicure7.jpeg";
 import Img8 from "../../img/manicure8.jpeg";
-import * as S from "./styled";
+import {MainContainer,Container,Img} from "./styled";
 
 
 const properties = {
@@ -21,40 +21,41 @@ const properties = {
   infinity: true,
   canSwipe: true,
   pauseOnHover: true,
+  
 };
 
 function SlideShow() {
   return (
-    <S.MainContainer>
-      <S.Container>
+    <MainContainer>
+      <Container>
         <Slide {...properties}>
           <div>
-            <S.Img src={Img1} />
+            <Img src={Img1} />
           </div>
           <div>
-            <S.Img src={Img2} />
+            <Img src={Img2} />
           </div>
           <div>
-            <S.Img src={Img3} />
+            <Img src={Img3} />
           </div>
           <div>
-            <S.Img src={Img4} />
+            <Img src={Img4} />
           </div>
           <div>
-            <S.Img src={Img5} />
+            <Img src={Img5} />
           </div>
           <div>
-            <S.Img src={Img6} />
+            <Img src={Img6} />
           </div>
           <div>
-            <S.Img src={Img7} />
+            <Img src={Img7} />
           </div>
           <div>
-            <S.Img src={Img8} />
+            <Img src={Img8} />
           </div>
         </Slide>
-      </S.Container>
-    </S.MainContainer>
+      </Container>
+    </MainContainer>
   );
 }
 

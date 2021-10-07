@@ -1,5 +1,5 @@
 import React from 'react';
-import * as S from './styled'
+import {Container,Logo,ContainerIcons,Icons,Copy,ContainerContact,Contact} from './styled'
 import Img from '../../img/flor.png'
 import Whats from '../../img/Icons/whatsapp.svg'
 import Inst from '../../img/Icons/instagram.svg'
@@ -7,36 +7,36 @@ import Face from '../../img/Icons/facebook.svg'
 
 function Footer() {
     return (
-        <S.Container>
+        <Container>
             <div>
                 <h1>Nany Moura</h1>
             </div>
 
-            <S.Destak>
+            <Logo>
                 <p>________________</p>
                 <img src={Img} width="30px" />
                 <p>________________</p>
-            </S.Destak>
+            </Logo>
 
-            <S.ContIcon>
+            <ContainerIcons>
 
-                <S.Icons href="#"><img src={Whats} /></S.Icons>
-                <S.Icons href="#"><img src={Inst} /></S.Icons>
-                <S.Icons href="#"><img src={Face} /></S.Icons>
-            </S.ContIcon>
+                <Icons href="#"><img src={Whats} /></Icons>
+                <Icons href="#"><img src={Inst} /></Icons>
+                <Icons href="#"><img src={Face} /></Icons>
+            </ContainerIcons>
 
-            <S.Copy >
+            <Copy >
                 <p>About &nbsp;|&nbsp; Termos & Conditions &nbsp;|&nbsp; Privacy Policy &nbsp;|&nbsp; Contact</p>
                 <p>copyright ©2021 PauloMarques</p>
-            </S.Copy>
+            </Copy>
 
-            <S.ContainerContact>
-                <S.Contact> <a href="#">Rua Voluntários da pátria n 280 ,Arcoverde -PE</a></S.Contact>
-                <S.Contact> <a href="#">Telefone:(87) 99623-3325</a></S.Contact>
-                <S.Contact> <a href="#">Email:paulinho_marques2012@hotmail.com</a></S.Contact>
-            </S.ContainerContact>
+            <ContainerContact>
+                <Contact> <a href="#">Rua Voluntários da pátria n 280 ,Arcoverde -PE</a></Contact>
+                <Contact> <a href="#">Telefone:(87) 99623-3325</a></Contact>
+                <Contact> <a href="#">Email:paulinho_marques2012@hotmail.com</a></Contact>
+            </ContainerContact>
 
-        </S.Container>
+        </Container>
     );
 }
 

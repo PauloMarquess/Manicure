@@ -5,6 +5,8 @@ import Menu from "../../components/Atomic/Menu";
 import SlideShow from "../../components/Slide";
 import Service from "../../components/Serviços";
 import Footer from "../../components/Footer";
+import Calendar from "../../components/Calendar";
+
 
 const Home = () => {
   return (
@@ -16,6 +18,7 @@ const Home = () => {
 
       <SlideShow />
       <Service />
+      <Calendar/>
       <Footer />
     </>
   );

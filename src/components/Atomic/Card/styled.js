@@ -3,6 +3,11 @@ import styled from 'styled-components';
 export const Container = styled.div`
  
  width: 20%;
+
+ @media (max-width:768px) {
+
+    width: 90%;
+ }
 `;
 export const Img =styled.img`
 width: 100%;
@@ -16,7 +21,15 @@ width:80%;
 margin-left: 10px;
 margin-top: 25px;
 
+@media (max-width:399px) {
+   width: 80%;
+}
+
+@media (max-width:768px) and (min-width:400px) {
+   width: 40%;
+}
 `
+
 
 export const H2 =styled.h2 `
 
