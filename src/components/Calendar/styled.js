@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
-  width: auto;
-  height:400px;
+  width: 80%;
+  height: 400px;
 `;

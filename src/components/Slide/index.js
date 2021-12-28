@@ -8,12 +8,12 @@ import Img5 from "../../img/manicure5.jpeg";
 import Img6 from "../../img/manicure6.jpeg";
 import Img7 from "../../img/manicure7.jpeg";
 import Img8 from "../../img/manicure8.jpeg";
-import {MainContainer,Container,Img} from "./styled";
-
+import { MainContainer, Container, Img } from "./styled";
+import { isMobile } from "react-device-detect";
 
 const properties = {
   duration: 5000,
-  slidesToShow: 4,
+  slidesToShow: isMobile ? 1 : 4,
   slidesToScroll: 1,
   autoplay: true,
   indicators: false,
@@ -21,7 +21,6 @@ const properties = {
   infinity: true,
   canSwipe: true,
   pauseOnHover: true,
-  
 };
 
 function SlideShow() {

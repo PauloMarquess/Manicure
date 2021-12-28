@@ -9,15 +9,10 @@ export const MainContainer = styled.div`
 
 export const Container = styled.div`
   margin-top: 40px;
-
   width: 90%;
-
-  
 `;
 
 export const Img = styled.img`
   width: 320px;
   height: 350px;
- 
 `;
-
